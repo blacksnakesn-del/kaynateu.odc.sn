@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kay Nateu - Authentification Apprenant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="auth-card">
+        <div class="card-header">
+            <h2 class="logo-small">Kay Nateu</h2>
+        </div>
+        <div class="card-body">
+            <!-- Icône représentative pour l'Apprenant -->
+            <img src="./images/apprenant.jpg" alt="Icône Apprenant" class="auth-icon">
+            <p class="auth-role">Apprenant</p>
+            <p class="form-instruction">Veillez remplir le formulaire pour une Authentification</p>
+            
+            <form action="dashboard.apprenant.html" method="GET">
+                <div class="form-group">
+                    <input type="text" placeholder="Nom" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Prénom" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Mots de passe" required>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" id="terms-apprenant">
+                    <label for="terms-apprenant">Accepter termes & conditions</label>
+                </div>
+                <button type="submit">S’authentifier</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
