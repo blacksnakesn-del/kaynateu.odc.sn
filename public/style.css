@@ -406,3 +406,94 @@ a {
     border: 1px solid rgba(0, 0, 0, 0.623);
     margin-bottom: 150px;
 }
+
+.cardg {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 83vh;
+}
+
+.cas1 {
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    border: 2px solid #4a8d8c;
+    border-radius: 15px;
+}
+.cas2 {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    border: 2px solid #4a8d8c;
+    border-radius: 15px;
+}
+.cas3 {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    border: 2px solid #4a8d8c;
+    border-radius: 15px;
+}
+
+#choixRole {
+    width: 100%;
+    padding: 15px;
+}
+
+.inscript input {
+    background-color: #69a5a4;
+    padding: 15px;
+}
+
+#btn {
+    background-color: #c9dcda;
+}
+
+.link a {
+    position: absolute;
+    margin-top: -50px;
+    width: 200px;
+    color: whitesmoke;
+    text-decoration: underline;
+    margin-left: 50px;
+}
+
+.cas1 h2 {
+    background-color: #4a8d8c;
+    padding: 15px;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    color: #000;
+}
+.cas2 h2 {
+    background-color: #4a8d8c;
+    padding: 15px;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    color: #000;
+}
+.cas3 h2 {
+    background-color: #4a8d8c;
+    padding: 15px;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    color: #000;
+}
+.cardg table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    color: #000;
+    font-size: 0.9em;
+}
+
+.cardg th, .dash-content td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.cardg th {
+    background-color: #e0e0e0;
+}
